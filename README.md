@@ -21,42 +21,42 @@
 ├── README.upstream.md
 ├── SKILL.md
 ├── scripts/
-├── creator_markdown_check.py
-├── creator_views.py
-├── dashboard_server.py
-├── project_tool.py
-└── selftest.py
+│   ├── creator_markdown_check.py
+│   ├── creator_views.py
+│   ├── dashboard_server.py
+│   ├── project_tool.py
+│   └── selftest.py
 ├── references/
-├── audience-reveal.md
-├── contract-and-ownership.md
-├── creator-documents.md
-├── creator-workflow.md
-├── knowhow-index.md
-├── look-development.md
-├── pickup-and-alternate.md
-├── production-form-profiles.md
-├── reference-roles.md
-├── runtime-preflight.md
-└── form-cards/
-├── Q版表达.md
-├── 二维动态漫.md
-├── 国漫二次元.md
-├── 实拍.md
-├── 水墨笔触.md
-└── 风格化三维.md
+│   ├── audience-reveal.md
+│   ├── contract-and-ownership.md
+│   ├── creator-documents.md
+│   ├── creator-workflow.md
+│   ├── knowhow-index.md
+│   ├── look-development.md
+│   ├── pickup-and-alternate.md
+│   ├── production-form-profiles.md
+│   ├── reference-roles.md
+│   ├── runtime-preflight.md
+│   └── form-cards/
+│       ├── Q版表达.md
+│       ├── 二维动态漫.md
+│       ├── 国漫二次元.md
+│       ├── 实拍.md
+│       ├── 水墨笔触.md
+│       └── 风格化三维.md
 ├── assets/
-├── creator-decision.example.jsonl
-├── production-observation.example.jsonl
-├── reference-observation.example.jsonl
-├── project-template/
-└── short-drama.json
-└── dashboard/
-├── app.js
-├── index.html
-├── styles.css
-└── tokens.css
+│   ├── creator-decision.example.jsonl
+│   ├── production-observation.example.jsonl
+│   ├── reference-observation.example.jsonl
+│   ├── project-template/
+│   │   └── short-drama.json
+│   └── dashboard/
+│       ├── app.js
+│       ├── index.html
+│       ├── styles.css
+│       └── tokens.css
 └── agents/
-└── openai.yaml
+    └── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
