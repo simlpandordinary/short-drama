@@ -17,13 +17,52 @@
 ## 目录结构
 
 ```
-['SKILL.md', 'agents/openai.yaml', 'assets/creator-decision.example.jsonl', 'assets/dashboard/app.js', 'assets/dashboard/index.html', 'assets/dashboard/styles.css', 'assets/dashboard/tokens.css', 'assets/production-observation.example.jsonl', 'assets/project-template/short-drama.json', 'assets/reference-observation.example.jsonl', 'references/audience-reveal.md', 'references/contract-and-ownership.md', 'references/creator-documents.md', 'references/creator-workflow.md', 'references/form-cards/Q版表达.md', 'references/form-cards/二维动态漫.md', 'references/form-cards/国漫二次元.md', 'references/form-cards/实拍.md', 'references/form-cards/水墨笔触.md', 'references/form-cards/风格化三维.md', 'references/knowhow-index.md', 'references/look-development.md', 'references/pickup-and-alternate.md', 'references/production-form-profiles.md', 'references/reference-roles.md', 'references/runtime-preflight.md', 'scripts/creator_markdown_check.py', 'scripts/creator_views.py', 'scripts/dashboard_server.py', 'scripts/project_tool.py', 'scripts/selftest.py', 'LICENSE', 'README.upstream.md']
+├── LICENSE
+├── README.upstream.md
+├── SKILL.md
+├── scripts/
+├── creator_markdown_check.py
+├── creator_views.py
+├── dashboard_server.py
+├── project_tool.py
+└── selftest.py
+├── references/
+├── audience-reveal.md
+├── contract-and-ownership.md
+├── creator-documents.md
+├── creator-workflow.md
+├── knowhow-index.md
+├── look-development.md
+├── pickup-and-alternate.md
+├── production-form-profiles.md
+├── reference-roles.md
+├── runtime-preflight.md
+└── form-cards/
+├── Q版表达.md
+├── 二维动态漫.md
+├── 国漫二次元.md
+├── 实拍.md
+├── 水墨笔触.md
+└── 风格化三维.md
+├── assets/
+├── creator-decision.example.jsonl
+├── production-observation.example.jsonl
+├── reference-observation.example.jsonl
+├── project-template/
+└── short-drama.json
+└── dashboard/
+├── app.js
+├── index.html
+├── styles.css
+└── tokens.css
+└── agents/
+└── openai.yaml
 ```
 
 - `SKILL.md` 是技能入口（触发条件 / 工作流 / 约束），安装时必须位于技能根目录。
 - `references/`、`scripts/`、`assets/` 为该技能自带的参考文档、脚本与素材。
 - `README.upstream.md` 为上游仓库原始说明，保留出处与版权信息。
-- `LICENSE` 为上游许可证原文。
+- `LICENSE` 为上游许可证原件。
 
 ## 安装
 
@@ -36,8 +75,6 @@ git clone https://github.com/simlpandordinary/short-drama.git ~/.workbuddy/skill
 也可以直接对 AI 说：「把 <https://github.com/simlpandordinary/short-drama> 装成 Skill」。
 
 安装后用自然语言触发，例如「Drama Skills · short-drama」「用 short-drama 帮我处理这个任务」。
-
-本仓库仅含 Drama Skills 技能包中的 `short-drama` 家族技能之一，其余 10 个技能各自独立成仓。
 
 ## 版权
 
